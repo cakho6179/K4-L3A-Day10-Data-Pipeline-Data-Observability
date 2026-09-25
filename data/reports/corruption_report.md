@@ -1,6 +1,6 @@
 # Corruption Report — Baseline vs Corrupted vs Repaired
 
-_Generated at 2026-09-25T18:30:30.953279+00:00_ — all three states evaluated on the same `data/eval/test_set.json`.
+_Generated at 2026-09-25T18:41:50.339399+00:00_ — all three states evaluated on the same `data/eval/test_set.json`.
 
 ## 1. Headline metrics (3 states)
 

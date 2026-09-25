@@ -1,0 +1,5 @@
+Title: Data Observability and Quality Gates for Production RAG Systems
+Authors: Anh Tran, Quoc Pham
+Published: 2026-06-12
+Categories: Software Engineering, Data Systems
+Summary: Silent data corruption in RAG pipelines degrades LLM answer faithfulness without throwing runtime errors. We introduce automated quality gates using Great Expectations 1.x to catch stale and malformed embeddings before ser

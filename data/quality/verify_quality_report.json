@@ -1,16 +1,12 @@
 {
-  "report_name": "corrupted",
+  "report_name": "verify",
   "engine": "great_expectations 1.23.1",
-  "validated_at": "2026-09-25T18:41:41.848486+00:00",
-  "row_count": 22,
-  "success": false,
+  "validated_at": "2026-09-25T18:39:32.179695+00:00",
+  "row_count": 24,
+  "success": true,
   "evaluated_expectations": 7,
-  "successful_expectations": 4,
-  "failed_expectations": [
-    "expect_column_values_to_be_unique(paper_id)",
-    "expect_column_value_lengths_to_be_between(title)",
-    "expect_column_value_lengths_to_be_between(summary)"
-  ],
+  "successful_expectations": 7,
+  "failed_expectations": [],
   "expectations": [
     {
       "expectation": "expect_table_row_count_to_be_between",
@@ -20,7 +16,7 @@
         "max_value": 5000
       },
       "success": true,
-      "observed_value": 22,
+      "observed_value": 24,
       "unexpected_count": null,
       "unexpected_percent": null,
       "partial_unexpected_list": []
@@ -43,18 +39,11 @@
       "kwargs": {
         "column": "paper_id"
       },
-      "success": false,
+      "success": true,
       "observed_value": null,
-      "unexpected_count": 6,
-      "unexpected_percent": 27.27272727272727,
-      "partial_unexpected_list": [
-        "10.1145/3637528.3671814",
-        "10.1145/3637528.3671813",
-        "10.1145/3637528.3671811",
-        "10.1145/3637528.3671814",
-        "10.1145/3637528.3671813",
-        "10.1145/3637528.3671811"
-      ]
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": []
     },
     {
       "expectation": "expect_column_values_to_not_be_null",
@@ -75,16 +64,11 @@
         "column": "title",
         "min_value": 8
       },
-      "success": false,
+      "success": true,
       "observed_value": null,
-      "unexpected_count": 4,
-      "unexpected_percent": 18.181818181818183,
-      "partial_unexpected_list": [
-        "Advanc",
-        "Advanc",
-        "Mitiga",
-        "Advanc"
-      ]
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": []
     },
     {
       "expectation": "expect_column_values_to_not_be_null",
@@ -106,38 +90,28 @@
         "min_value": 30,
         "max_value": 20000
       },
-      "success": false,
+      "success": true,
       "observed_value": null,
-      "unexpected_count": 4,
-      "unexpected_percent": 18.181818181818183,
-      "partial_unexpected_list": [
-        "",
-        "",
-        "",
-        ""
-      ]
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": []
     }
   ],
   "freshness": {
-    "checked_at": "2026-09-25T18:41:41.847233+00:00",
+    "checked_at": "2026-09-25T18:39:32.178297+00:00",
     "threshold_days": 180,
     "max_stale_ratio": 0.25,
-    "latest_published": "2026-06-12",
-    "oldest_published": "2025-03-28",
-    "latest_age_days": 105,
-    "median_age_days": 131.0,
-    "stale_rows": 7,
-    "total_rows": 22,
-    "stale_ratio": 0.3182,
+    "latest_published": "2026-07-22",
+    "oldest_published": "2026-03-28",
+    "latest_age_days": 65,
+    "median_age_days": 110.5,
+    "stale_rows": 1,
+    "total_rows": 24,
+    "stale_ratio": 0.0417,
     "stale_paper_ids": [
-      "10.1145/3637528.3671805",
-      "10.1145/3637528.3671809",
-      "10.1145/3637528.3671814",
-      "10.1145/3637528.3671815",
-      "10.1145/3637528.3671822",
-      "10.1145/3637528.3671823"
+      "10.1145/3637528.3671805"
     ],
-    "is_fresh": false
+    "is_fresh": true
   },
-  "gate_passed": false
+  "gate_passed": true
 }
