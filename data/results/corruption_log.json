@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T18:30:22.118358+00:00",
+  "seed": 42,
+  "input_rows": 24,
+  "output_rows": 22,
+  "corruption_count": 6,
+  "corruptions": [
+    {
+      "corruption_type": "drop_latest_records",
+      "description": "Dropped the 5 newest records (20%).",
+      "affected_rows": 5,
+      "paper_ids": [
+        "10.1145/3637528.3671812",
+        "10.1145/3637528.3671808",
+        "10.1145/3637528.3671804",
+        "10.1145/3637528.3671807",
+        "10.1145/3637528.3671802"
+      ],
+      "details": {
+        "dropped_published": [
+          "2026-07-22",
+          "2026-07-19",
+          "2026-07-05",
+          "2026-06-25",
+          "2026-06-12"
+        ]
+      }
+    },
+    {
+      "corruption_type": "blank_summary",
+      "description": "Replaced the abstract with an empty string.",
+      "affected_rows": 3,
+      "paper_ids": [
+        "10.1145/3637528.3671811",
+        "10.1145/3637528.3671801",
+        "10.1145/3637528.3671810"
+      ]
+    },
+    {
+      "corruption_type": "inject_noise",
+      "description": "Inserted garbage tokens into the abstract.",
+      "affected_rows": 3,
+      "paper_ids": [
+        "10.1145/3637528.3671816",
+        "10.1145/3637528.3671820",
+        "10.1145/3637528.3671806"
+      ],
+      "details": {
+        "noise_tokens": [
+          "#@!%",
+          "$$^&*",
+          "\ufffd\ufffd",
+          "lorem~~",
+          "0xDEADBEEF",
+          "&&||",
+          "??!!",
+          "<<br>>"
+        ]
+      }
+    },
+    {
+      "corruption_type": "truncate_title",
+      "description": "Truncated the title to 6 characters.",
+      "affected_rows": 3,
+      "paper_ids": [
+        "10.1145/3637528.3671803",
+        "10.1145/3637528.3671819",
+        "10.1145/3637528.3671813"
+      ],
+      "details": {
+        "examples": [
+          {
+            "before": "Mitigating Ghost Vectors in Dense Retrieval via Idempotent Indexing",
+            "after": "Mitiga"
+          },
+          {
+            "before": "Advanced Perspectives on Synthetic Corruption Testing: Stress-Testing Vector Search Robustness",
+            "after": "Advanc"
+          },
+          {
+            "before": "Advanced Perspectives on Agentic Retrieval-Augmented Generation for Knowledge-Intensive Tasks",
+            "after": "Advanc"
+          }
+        ]
+      }
+    },
+    {
+      "corruption_type": "stale_date",
+      "description": "Moved the published date 365 days into the past.",
+      "affected_rows": 6,
+      "paper_ids": [
+        "10.1145/3637528.3671809",
+        "10.1145/3637528.3671815",
+        "10.1145/3637528.3671823",
+        "10.1145/3637528.3671814",
+        "10.1145/3637528.3671822",
+        "10.1145/3637528.3671805"
+      ]
+    },
+    {
+      "corruption_type": "duplicate_rows",
+      "description": "Appended exact copies of existing rows.",
+      "affected_rows": 3,
+      "paper_ids": [
+        "10.1145/3637528.3671814",
+        "10.1145/3637528.3671813",
+        "10.1145/3637528.3671811"
+      ]
+    }
+  ]
+}

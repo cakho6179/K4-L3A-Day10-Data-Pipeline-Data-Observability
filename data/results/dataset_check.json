@@ -1,0 +1,7 @@
+{
+  "baseline_fingerprint": "123465407db763f46f106a4578d850851ba52e4ef16a0ce0f92135eb234568de",
+  "repaired_fingerprint": "123465407db763f46f106a4578d850851ba52e4ef16a0ce0f92135eb234568de",
+  "second_rebuild_fingerprint": "123465407db763f46f106a4578d850851ba52e4ef16a0ce0f92135eb234568de",
+  "matches_baseline": true,
+  "rebuild_is_deterministic": true
+}

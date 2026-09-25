@@ -1,0 +1,5 @@
+{
+  "llm_provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "skipped": "RuntimeError: GOOGLE_API_KEY is required when LLM_PROVIDER=gemini."
+}

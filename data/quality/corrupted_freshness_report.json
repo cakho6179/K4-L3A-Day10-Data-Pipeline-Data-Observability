@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-25T18:30:22.264403+00:00",
+  "threshold_days": 180,
+  "max_stale_ratio": 0.25,
+  "latest_published": "2026-06-12",
+  "oldest_published": "2025-03-28",
+  "latest_age_days": 105,
+  "median_age_days": 131.0,
+  "stale_rows": 7,
+  "total_rows": 22,
+  "stale_ratio": 0.3182,
+  "stale_paper_ids": [
+    "10.1145/3637528.3671805",
+    "10.1145/3637528.3671809",
+    "10.1145/3637528.3671814",
+    "10.1145/3637528.3671815",
+    "10.1145/3637528.3671822",
+    "10.1145/3637528.3671823"
+  ],
+  "is_fresh": false
+}

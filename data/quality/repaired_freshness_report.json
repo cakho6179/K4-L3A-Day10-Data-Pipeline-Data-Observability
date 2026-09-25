@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-25T18:30:30.738248+00:00",
+  "threshold_days": 180,
+  "max_stale_ratio": 0.25,
+  "latest_published": "2026-07-22",
+  "oldest_published": "2026-03-28",
+  "latest_age_days": 65,
+  "median_age_days": 110.5,
+  "stale_rows": 1,
+  "total_rows": 24,
+  "stale_ratio": 0.0417,
+  "stale_paper_ids": [
+    "10.1145/3637528.3671805"
+  ],
+  "is_fresh": true
+}
