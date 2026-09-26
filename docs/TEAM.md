@@ -11,7 +11,7 @@
 
 | STT | Họ và tên | MSSV | Email | Vai trò & Phân công công việc | Báo cáo cá nhân |
 |---:|---|---|---|---|---|
-| 1 | NGUYỄN VĂN SƠN | 2A202602744 | _(điền email)_ | Solo: Pipeline Integrator + Data Foundation & Recovery + RAG & Vector Index + Observability & Evaluation (toàn bộ `src/`, pipeline, báo cáo) | (tích hợp trong repo) |
+| 1 | NGUYỄN VĂN SƠN | 2A202602744 | dzson231@gmail.com | Solo: Pipeline Integrator + Data Foundation & Recovery + RAG & Vector Index + Observability & Evaluation (toàn bộ `src/`, pipeline, báo cáo) | (tích hợp trong repo) |
 
 ---
 
